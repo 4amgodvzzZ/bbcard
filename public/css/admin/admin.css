@@ -1,0 +1,251 @@
+
+/*
+我要供货样式
+*/
+.panel{
+    margin-top: 20px;
+    text-align: center;
+}
+.panelcontent{
+    position: relative;
+    left: 20%;
+    padding-top: 20px;
+    color: #4aa0e6;
+    border-radius: 10px;
+    height: 650px;
+    width: 60%;
+    background-color: #e2e6ea;
+}
+.cardtype{
+    border-radius: 10px;
+    position: relative;
+    left: 15%;
+    border: #ffffff 1px solid;
+    width: 70%;
+}
+.salebtn{
+    padding-top: 30px;
+}
+.salebtn a{
+    margin-left: 12px;
+    padding: 5px;
+    border: #ffffff 1px solid;
+    text-decoration: none;
+    color: #1c7430;
+}
+.salebtn a:focus{
+    margin-left: 12px;
+    padding: 5px;
+    border: #dc0010 1px solid;
+    text-decoration: none;
+    color: #1c7430;
+}
+
+.denombtn{
+    padding-top: 30px;
+    line-height: 50px;
+}
+.denombtn a{
+    margin-left: 12px;
+    padding: 5px;
+    border: #ffffff 1px solid;
+    text-decoration: none;
+    color: #1c7430;
+}
+.denombtn a:focus{
+    margin-left: 12px;
+    padding: 5px;
+    border: #dc0010 1px solid;
+    text-decoration: none;
+    color: #1c7430;
+}
+.denom{
+    margin-top: 20px;
+}
+
+.cardtypefoot{
+    margin:40px 0 40px 0;
+}
+.cardform{
+    margin-top: 20px;
+}
+
+/*
+    账户信息样式
+*/
+.accountpanel{
+    margin-top: 20px;
+}
+.accountinfo{
+    width: 70%;
+    margin-left: 35px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    height: 150px;
+    float: left;
+}
+.accountleft{
+    margin: 10px 0 0 20px;
+    line-height: 40px;
+    width: 30%;
+    float: left;
+}
+.accountright{
+    margin: 20px 80px 0 0;
+    float: right;
+}
+.linkinfo{
+    width: 22%;
+    padding-top: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: #ffffff;
+    height: 150px;
+    float: left;
+}
+.cardinfo{
+    width: 94%;
+    margin:20px 0 0 35px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    height: 200px;
+    float: left;
+}
+.cardinfotop{
+    padding: 0 10px 0 20px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    border-bottom: #e2e6ea 2px solid;
+}
+.salestatus{
+    text-align: center;
+    width: 15%;
+    line-height: 40px;
+    border-radius: 5px;
+    border: #e2e6ea 1px solid;
+    float: left;
+    height: 120px;
+    margin-left: 8%;
+    margin-top: 20px;
+}
+.salestatus span{
+    color: rgb(0, 204, 174);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.saleinfo{
+    width: 94%;
+    margin:20px 0 0 35px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    height: 200px;
+    float: left;
+}
+.saleinfo table{
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    width: 100%;
+}
+
+/*交易记录*/
+.recordpanel{
+    margin-top: 20px;
+}
+.recordinfo{
+    width: 70%;
+    margin-left: 35px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    height: 150px;
+    float: left;
+}
+.recordinfo{
+    width: 94%;
+    margin-left: 35px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    height: 150px;
+    float: left;
+}
+.infotop{
+    float: left;
+    width: 100%;
+    padding-bottom: 1%;
+    border-bottom: #e2e6ea 1px solid;
+}
+.infoleft{
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+.infoleft input{
+    background:transparent;
+    border:1px solid #e2e6ea;
+}
+.infoleft a{
+    color: #4aa0e6;
+    text-decoration: none;
+}
+.infoleft a:hover{
+    color: rgb(0, 204, 174);
+    text-decoration: none;
+}
+.inforight{
+    float: right;
+    padding-right: 2%;
+    padding-top: 2.5%;
+}
+.infobot{
+    float: left;
+    width: 100%;
+    padding-top: 2%;
+}
+.infobot div{
+    padding-left: 7%;
+    float: left;
+}
+.recordbot{
+    width: 94%;
+    margin-top: 20px;
+    margin-left: 35px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    height: 420px;
+    float: left;
+}
+.recordbot div table{
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    width: 100%;
+}
+.rebtn{
+    margin-left: -60px;
+}
+.rebtn a{
+    padding: 5px;
+    border: #e2e6ea 1px solid;
+    text-decoration: none;
+    color: #1c7430;
+}
+.rebtn a:focus{
+    padding: 5px;
+    border: #dc0010 1px solid;
+    text-decoration: none;
+    color: #1c7430;
+}
+
+/*下一页样式*/
+.pagination-sm{
+    font-size: 20px;
+    margin-top: -15px;
+    margin-right: 6%;
+    float: right;
+}
